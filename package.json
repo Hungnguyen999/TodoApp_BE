@@ -1,0 +1,22 @@
+{
+  "name": "@app/backend",
+  "version": "0.1.0",
+  "description": "Demo todo app with Express Server",
+  "main": "index.js",
+  "repository": "https://github.com/ltv/nodejs-course.git",
+  "author": "Luc <luc@ltv.vn>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^4.0.1",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "serve": "nodemon src/app.js",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
